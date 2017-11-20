@@ -15,6 +15,7 @@ public class ConcurrencyTest {
 		for (long i = 0; i < count; i++) {
 			a += 5;
 		}
+
 		int b = 0;
 		for (long i = 0; i < count; i++) {
 			b--;
